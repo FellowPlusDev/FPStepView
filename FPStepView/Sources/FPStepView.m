@@ -13,7 +13,7 @@
 - (void)drawRect:(CGRect)rect
 {
     NSInteger step = self.totalStep ? : 5;
-    NSInteger currentStep = self.currentStep ? : 2;
+    NSInteger currentStep = self.currentStep;
     
     if (currentStep > step) {
         currentStep = step - 1;
