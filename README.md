@@ -7,7 +7,7 @@ FPStepView is a simple view show the steps. Written in Objective-c.
 ## Installation
 #### CocoaPods
 
-	pod 'FPStepView', :git => 'https://github.com/FellowPlusDev/FPStepView.git'
+	pod 'FPStepView', '~> 1.0.0'
 	
 #### Source File
 You can copy all the files under the `Sources` folder into your project.
